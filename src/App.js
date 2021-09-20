@@ -28,10 +28,10 @@ function App() {
             <Route path="/dash-board/admin/manage-user">
               <Home />
             </Route>
-            <Route exact path="/dash-board/admin/manage-groups">
+            <Route path="/dash-board/admin/manage-groups">
               <ManageGroups />
             </Route>
-            <Route exact path="/dash-board/admin/manage-roles">
+            <Route path="/dash-board/admin/manage-roles">
               <ManageRoles />
             </Route>
           </Switch>
